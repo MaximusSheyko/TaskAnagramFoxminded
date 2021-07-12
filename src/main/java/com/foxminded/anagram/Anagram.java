@@ -2,7 +2,7 @@ package com.foxminded.anagram;
 
 public class Anagram {
 
-    private final static String SPACE = "\s+";
+    private static final String SPACE = "\s+";
 
     public String toReverseString(String inputString) {
 	if (inputString == null) {
@@ -10,7 +10,7 @@ public class Anagram {
 	}
 
 	for (String word : inputString.split(SPACE)) {
-	    inputString = inputString.replace(word, toReverseWord(word));
+	    inputString = inputString. replace(word, toReverseWord(word));
 	}
 	return inputString;
     }

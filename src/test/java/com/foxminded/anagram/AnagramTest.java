@@ -35,7 +35,7 @@ class AnagramTest {
     void testToReverseString_whenInString_isNull() {
 	assertNotNull(THROWABLE_MESSAGE);
     }
-
+ 
     @Test
     void testToReverseString_whenInString_onlyLetters() {
 	assertEquals(ONLY_LETTERS_REVERSED, anagram.toReverseString(ONLY_LETTERS));
